@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+/*font-family: 'Source Serif Pro', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/*font-family: 'Patrick Hand', cursive;*/
+
+
+*{
+				margin:0;
+				padding:0;
+}
+
+body {
+				display:flex;
+				flex-direction:row;
+}
+
+
+main{
+				background: brown;
+				background: url('hex.png');
+				background-repeat:no-repeat ;
+				background-position:center;
+				background-size:cover ;
+			 background-opacity:50% ;
+				height: 100vh;
+				width:100%;
+				display:flex;
+				jusitfy-content:center;
+				align-items:center;
+				font-family: 'Source Serif Pro', serif;
+      min-height: 400px;
+}
+.intro{
+				margin:0px 50px 0px 5%;
+				}
+
+
+main span, .contactMe span, .top span{
+				color:red;
+}
+.more span{
+				color:#ff4a2b;
+				text-shadow: 1px 1px 2px black;
+				
+}
+.me{
+				font-size: 2em;
+				font-weight:500;
+				margin:6px 0;
+}
+.more{
+				font-weight:500;
+				margin: 7px 0;
+}
+.more span{
+				font-weight:400;
+}
+.name{
+				font-size: 2.2em;
+				font-weight:600;
+				margin:7px 0;
+}
+.getInTouch{
+				margin-top: 15px;
+}
+button{
+				border-radius: 10px;
+				padding: 6px 10px;
+				margin:2px 7px;
+				cursor:pointer;
+}
+.services{
+				background: black;
+				color:#ff4040;
+}
+.contact{
+				background: red;
+}
+
+
+nav{
+				background: black;
+				width: 25vw;
+}
+.hamburger{
+				display:flex;
+				flex-direction:row;
+			 justify-content:space-between;
+}
+.hamIcon{
+				height: 35px;
+				width: 35px;
+				
+				cursor:pointer;
+}
+.crossIcon{
+				height: 35px;
+				width: 35px;
+				cursor:pointer;
+				margin-top:-3px ;
+}
+.navContainer{
+				margin:15px;
+}
+.navItem{
+				margin:20px 0;
+				/*background: blue;*/
+}
+.navItem a{
+				cursor:pointer;
+				text-decoration:none;
+				color:red;
+				text-shadow:0 0 10px red, 0px 0px 40px red;
+}
+
+/*-------------------------------------------*/
+.contactMe{
+				background: linear-gradient(to bottom,#002dff20,#0096ff90);
+				height: 100vh;
+				min-height:429px;
+				width: 100%;
+				font-family: 'Patrick Hand', cursive;
+				font-size:20px;
+}
+.contactContainer{
+				margin: 2vw 3vw 0 4vw;
+}
+.contactItem{
+				margin: 10px 5px;
+				/*background: pink;*/
+}
+textarea{
+				width: 100%;
+				height: 90%;
+}
+
+/*--------------------------------------------*/
+
+.aboutContainer{
+      min-height:100vh;
+				width: 100%;
+				text-align:center;
+				word-spacing:2px;
+				/*background: purple;*/
+				font-family: 'Source Serif Pro', serif;
+				font-family: 'Patrick Hand', cursive;
+}
+.top{/*background: blue;*/
+				margin-top:16px;}
+
+#pp{
+				background: black;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+}
+.skills{
+				text-align:left;
+				margin:6px 5px 0 20px;
+				/*background: green;*/
+}
+.totalSkill{
+				height: 10px;
+				width:90%;
+	    background: black;
+	    border-radius: 5px;
+	    margin: 0 0 10px 0;
+}
+.html,.css,.js,.php{
+				background: red;
+				height: 100%;
+				border-radius: 5px;
+}
+.html{width: 75%;}
+.css{width: 65%;}
+.js{width: 48%}
+.php{width: 55%}
+
+.hire{
+				background: red;
+				box-sizing:border-box;
+				height:30px;
+				width: 200px;
+				border-radius: 10px;
+				margin:20px auto;
+				text-align:center;
+				font-size:130%;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+}
+.hire:hover{
+				background:black;
+				color:red;
+				font-size:150%;
+}
+
+footer{
+				background: black;
+				padding: 12px 0;
+				position:relative;
+				bottom:0px;
+}
+.social{
+				display:flex;
+				flex-direction:row;
+				justify-content:space-between;
+				width: 60%;
+				margin: auto;
+				/*margin-top: 10px;*/
+				background: black;
+}
+.social img{
+				height: 30px;
+				width: 30px;
+				background: black;
+				border-radius: 50%;
+}
+
+
+@media screen and (max-width:480px){
+				.nav{
+								width:35vw;
+				}
+}
